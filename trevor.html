@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script lang="javascript">
+        function clicked() {
+            console.log("The button was clicked.");
+        }
+        function loaded() {
+            document.getElementById("inp").value="ABC";
+        }
+    </script>
+</head>
+<body onload="loaded()">
+    <!-- This is why I joined the bootcamp -->
+
+    <div>
+        <input id="inp" type="text">
+    </div>
+
+    <img src="SampleMainCharacterNoOutline.png">
+
+    <ol>
+        <li>Red</li>
+        <li>White</li>
+        <li>Blue</li>
+    </ol>
+
+    <ul>
+        <li>Red</li>
+        <li>White</li>
+        <li>Blue</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Favorite Number</th>
+                <th>Favorite Color</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sam</td>
+                <td>21</td>
+                <td style="color:green">Green</td>
+            </tr>
+            <tr>
+                <td>Tyler</td>
+                <td>44</td>
+                <td style="color:black">Black</td>
+            </tr>
+            <tr>
+                <td>Eric</td>
+                <td>7</td>
+                <td style="color:blue">Blue</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div hidden>
+        <span>This is line 1</span>
+        <span>This is line 2</span>
+        <span>This is line 3</span>
+    </div>
+
+    <p>
+        <button onclick="clicked()">Click me!</button>
+    </p>
+
+    <a href="https://maxtrain.com/" target="_blank">MAX Technical Training</a>
+    <a href="index.html">Go to index.html</a>
+    
+    <h1>Trevor Osborne</h1>
+    <p style="width: 400px;">
+        I currently work for Kroger Technology and joined the
+        bootcamp because I am currently on a legacy team and
+        we are being moved to one of our modern teams. Being
+        a part of the bootcamp is to round out my skills as
+        a java developer and prepare myself to be on one of
+        our new teams.
+    </p>
+    <span>
+        This is an input tag:
+            <input type="text" value="default value" placeholder="Enter Text Here.">
+    </span>
+    <p>
+        <select>
+            <option value="y">Yes</option>
+            <option value="n">No</option>
+        </select>
+    </p>
+    
+</body>
+</html>
