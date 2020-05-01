@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="js/ch3_exercises.js"></script>
 </head>
 
 <body>
@@ -19,6 +20,24 @@
     <script lang="javascript">
         document.getElementById("para").style.color = "green"
     </script>
+    <br>
+
+    <h3>Chapter 3 exercises</h3>
+    <div id="min">
+        <h5>Min function</h5>
+        <input type="number" id="num1">
+        <input type="number" id="num2">
+        <br>
+        <button onclick="min()" id="min">min calculate</button>
+        <input type="text" id="result" readonly>
+
+        <h5>Recursion</h5>
+        <input type="number" id="isEvenInput">
+        <br>
+        <button onclick="isEven()" id="even">isEven()</button>
+        <input type="text" id="evenResult" readonly>
+    </div>
+
 </body>
 
 </html>
