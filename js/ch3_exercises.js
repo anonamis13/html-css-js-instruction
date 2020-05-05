@@ -17,12 +17,7 @@ function isEven () {
     let even = document.getElementById("evenResult");
     let numTest = document.getElementById("isEvenInput").value;
     
-    if (isEvenTest(numTest)) {
-        even.value = "odd";
-    }
-    else {
-        even.value = "even";
-    }
+    even.value = (isEvenTest(numTest)) ? "odd" : "even";
 }
 
 function isEvenTest (numTest) {
